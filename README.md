@@ -22,9 +22,6 @@ Bem-vindo ao **TriForce**, a loja online feita especialmente para triatletas! Aq
 ### 🔗 Backend
 - **Node.js** + **Express**
 - **Supabase** (Banco de dados Postgres + autenticação)
-- **JWT** (Autenticação)
-- **Bcrypt** (Criptografia de senhas)
-- **Cors, Dotenv, Morgan** (Middlewares essenciais)
 
 ---
 
@@ -67,9 +64,12 @@ TriForce/
 
 Daniel Campos Coelho — 
 💼 [LinkedIn](https://www.linkedin.com/in/daniel-coelho-818381293/) • 💻 [GitHub](https://github.com/danccoelho)  
+
 Gabriel Pereira Melo dos Santos — 
 💼 [LinkedIn](http://www.linkedin.com/in/gabriel-pereira-37ab732b9) • 💻 [GitHub](https://github.com/GabrielPereirabot)
-Ivan Delmondez -
+
+Ivan Delmondez —
 💼 [LinkedIn](https://www.linkedin.com/in/idelmondez/) • 💻 [GitHub](https://github.com/idelmondez)
-Pedro Henrique Lima Postay -
+
+Pedro Henrique Lima Postay —
 💼 [LinkedIn](https://www.linkedin.com/in/pedro-postay-7648a8264/) • 💻 [GitHub](https://github.com/pedrokojiro)
