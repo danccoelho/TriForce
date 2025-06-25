@@ -1,0 +1,136 @@
+.cadastroContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cadastroBox {
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.logo a {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: #ff6600;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  color: #334e68;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ff6600;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #102a43;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #cc5200;
+  box-shadow: 0 0 6px rgba(204, 82, 0, 0.4);
+}
+
+.btnPrimary {
+  margin-top: 1.5rem;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 0.85rem 0;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.btnPrimary:hover {
+  background-color: #cc5200;
+}
+
+.signInText {
+  margin-top: 1.8rem;
+  font-size: 0.95rem;
+  color: #627d98;
+  text-align: center;
+}
+
+.signInLink {
+  color: #ff6600;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+.signInLink:hover {
+  text-decoration: underline;
+}
+
+.checkboxContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #444;
+  user-select: none;
+}
+
+.checkboxWrapper input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff6600; /* laranja do tema */
+  cursor: pointer;
+  border: 1.5px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkboxWrapper span {
+  color: #333;
+  font-weight: 500;
+}

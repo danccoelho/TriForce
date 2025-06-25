@@ -1,0 +1,95 @@
+.produtoPage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.imageWrapper {
+  flex: 1 1 40%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.infoWrapper {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.infoWrapper h1 {
+  font-size: 2.2rem;
+  color: #ff6600;
+  margin-bottom: 0.5rem;
+}
+
+.descricao {
+  font-size: 1.1rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.selectTamanho {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #333;
+  width: fit-content;
+}
+
+.botao {
+  margin-top: 1rem;
+  background-color: #ff6600;
+  color: white;
+  padding: 0.9rem 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #cc5200;
+}
+
+.notFound {
+  padding: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.tamanhoWrapper {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.tamanhoWrapper select {
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+}

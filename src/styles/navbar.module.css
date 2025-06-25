@@ -1,0 +1,125 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.searchBox {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+  margin: 0 1.5rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 12px 8px 36px;
+  border: 1.5px solid #ff6600;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #cc5200;
+  box-shadow: 0 0 8px rgba(204, 82, 0, 0.5);
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #ff6600;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+
+/* Ícones da Navbar */
+.navIcons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navIcons a, .profileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff6600;
+  font-size: 1.6rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.navIcons a:hover, .profileWrapper:hover {
+  color: #cc5200;
+}
+
+/* Dropdown perfil */
+.profileWrapper:focus {
+  outline: none;
+}
+
+.profileDropdown {
+  position: absolute;
+  top: 130%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  z-index: 2000;
+}
+
+.profileDropdown a {
+  color: #333;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.profileDropdown a:hover {
+  background-color: #ff6600;
+  color: white;
+  border-radius: 4px;
+}
+
+.profileIcon {
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* cor padrão quando deslogado */
+.notLoggedIn {
+  color: #ff6600;
+}
+
+/* cor quando logado */
+.loggedIn {
+  color: #0077ff;
+}
